@@ -3,6 +3,8 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import '../globals.css';
+import { ReactNode } from 'react';
+import type { LayoutProps } from '../../../.next/types/app/[locale]/layout';
 
 // Supported locales
 const locales = ['es', 'en'];
@@ -10,11 +12,8 @@ const locales = ['es', 'en'];
 export default async function LocaleLayout({
   children,
   params
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const { locale } = params;
+}: LayoutProps) {
+  const { locale } = await params;
 
   console.log('--- LAYOUT ---');
   console.log('🎨 Layout - Received locale param:', locale);

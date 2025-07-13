@@ -1,0 +1,104 @@
+{
+    "nav": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "why": "¿Por qué?"
+    },
+    "hero": {
+      "title": "¡Hola!",
+      "subtitle": "Soy Santiago y este es mi portfolio.",
+      "cta": "Ver Proyectos"
+    },
+    "aboutMe": {
+      "title": "Sobre mí:",
+      "p1": "Me apasiona la tecnología, los datos y los negocios.",
+      "p2": "Aunque, cuando elegí una carrera en mis 18s opté por Marketing. ¿Extraño, no? Pero en ese momento veía el aspecto matemático y teórico de ingeniería no alineado con lo que quería.",
+      "p3": "Ese cambio y en la carrera descubrí que las matemáticas son divertidas cuando las aplicas en algo real, como ventas y costos. Disfruté mucho Marketing y creo que me dio una visión de negocios que si hubiera estudiado otra carrera me hubiera costado más desarrollar.",
+      "p4": "Luego, tomé cursos de Data Analytics y Data Sciences. Eso confirmó mi interés en datos y desarrollo, y me dio el coraje para hacer un posgrado en Finanzas Cuantitativas."
+    },
+    "why": {
+      "title": "¿Por qué?",
+      "p1": "Me encanta esta pregunta, así que creo que merece una sección en mi portfolio.",
+      "p2": "¿Por qué amo el por qué? Porque siento que expone mi motivación en cada aspecto de mi vida.",
+      "p3": "¿Por qué hago lo que hago? Porque creo que es cool. Puede sonar nerd, y sé que decir cool ya no es cool, pero recientemente descubrí que es la mejor forma de explicarlo, al menos para mí.",
+      "p4": "Siempre amé la tecnología, pero al mismo tiempo tenía otros intereses fuertes que cambiaban con el tiempo. Trabajar en IT me da la misma sensación que de niño cuando descubría algo nuevo y emocionante que me hacía perder la noción del tiempo y aprender más sobre eso.",
+      "p5": "En este camino de aprender cosas nuevas y buscar en Google o YouTube sobre mi nueva pasión, veo en retrospectiva que mi única brújula para guiarme era 'esto es cool, quiero saber más'.",
+      "p6": "Y esa fue toda la justificación que necesitaba. Para mí, eso era 'cool'. Hoy las cosas no cambian mucho. Sí, tengo más estructura y frameworks para aprender mejor. Pero lo que más disfruto es trabajar en algo que realmente creo que es cool. Aunque decirlo así ya no sea cool."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "repo": "Repositorio",
+      "demo": "Demo",
+      "btn-repo": "Ver Repositorio",
+      "btn-demo": "Ver Demo",
+      "1": {
+        "title": "Tracker de Finanzas Personales",
+        "short": "Aplicación web con integración de IA y carrito de compras que permite a los usuarios registrar y gestionar sus finanzas personales de manera sencilla e intuitiva.",
+        "tech": "Next.js | Supabase | IA Integration",
+        "desc": "Este dashboard interactivo fue desarrollado para visualizar finanzas personales con una interfaz de usuario intuitiva.",
+        "features": "Características principales:",
+        "feature1": "Visualización interactiva de datos en tiempo real",
+        "feature2": "Filtros dinámicos para análisis personalizado",
+        "feature3": "Exportación de datos en múltiples formatos",
+        "feature4": "Integración con múltiples fuentes de datos",
+        "feature5": "Manejo de autenticación de usuarios"
+      },
+      "2": {
+        "title": "Miel Bakery",
+        "short": "Página web de pastelería, con el objetivo de mostrar los productos y precios para los clientes.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Página web de pastelería, con el objetivo de mostrar los productos y precios para los clientes.",
+        "features": "Características principales:",
+        "feature1": "Diseño responsivo para todos los dispositivos",
+        "feature2": "Animaciones suaves y transiciones elegantes",
+        "feature3": "Optimización SEO",
+        "feature4": "Integración con redes sociales"
+      },
+      "3": {
+        "title": "Diamond Studio - Manicura",
+        "short": "Página para manicura, con agenda de cita, formulario de contacto y carrito de compras. Incluyendo sistema de email Marketing y un sistema de administración de clientes.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Página para manicura, con agenda de cita y formulario de contacto. Incluyendo sistema de email Marketing y un sistema de administración de clientes.",
+        "features": "Características principales:",
+        "feature1": "Integración con Whatsapp",
+        "feature2": "Integración con Mail",
+        "feature3": "Gestión de información de clientes"
+      },
+      "4": {
+        "title": "La Alfarera Taller",
+        "short": "Landing page para una alfarera, con el objetivo de mostrar los servicios y técnicas para los clientes.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Landing page para una alfarera, con el objetivo de mostrar los servicios y técnicas para los clientes.",
+        "features": "Características principales:",
+        "feature1": "Integración con Whatsapp",
+        "feature2": "Integración con Mail",
+        "feature3": "Gestión de información de clientes"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "socialTitle": "Redes Sociales",
+      "email": "billordo.santiago@gmail.com",
+      "linkedinUrl": "https://linkedin.com/in/santiagobillordo",
+      "githubUrl": "https://github.com/santiagobillordo",
+      "form": {
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "send": "Enviar Mensaje"
+      }
+    },
+    "footer": {
+      "role": "Desarrollador Full Stack",
+      "links": "Enlaces Rápidos",
+      "social": "Redes Sociales",
+      "made": "Hecho con",
+      "and": "y",
+      "copyright": "© 2024 Desarrollador Full Stack. Todos los derechos reservados."
+    },
+    "language": {
+      "es": "Español",
+      "en": "English"
+    }
+  }

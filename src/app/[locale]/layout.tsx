@@ -7,7 +7,7 @@ import { ReactNode } from 'react';
 import type { LayoutProps } from '../../../.next/types/app/[locale]/layout';
 
 // Supported locales
-const locales = ['es', 'en'];
+const locales = ['es', 'en', 'ca'];
 
 export default async function LocaleLayout({
   children,

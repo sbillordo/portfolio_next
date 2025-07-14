@@ -8,6 +8,7 @@ import { useTransition } from 'react';
 const languages = {
   es: { name: "Español", flag: "🇪🇸" },
   en: { name: "English", flag: "🇺🇸" },
+  ca: { name: "Català", flag: "🇦🇩" },
 };
 
 export function LanguageSelector() {

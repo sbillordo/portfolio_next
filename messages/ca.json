@@ -1,0 +1,105 @@
+{
+    "nav": {
+      "about": "Sobre mi",
+      "projects": "Projectes",
+      "contact": "Contacte",
+      "why": "Per què?"
+    },
+    "hero": {
+      "title": "Hola!",
+      "subtitle": "Sóc Santiago i aquest és el meu portfoli.",
+      "cta": "Veure Projectes"
+    },
+    "aboutMe": {
+      "title": "Sobre mi:",
+      "p1": "M'apassiona la tecnologia, les dades i els negocis.",
+      "p2": "Tot i que, quan vaig triar una carrera als 18 vaig optar per Màrqueting. Estrany, oi? Però en aquell moment veia l'aspecte matemàtic i teòric de l'enginyeria no alineat amb el que volia.",
+      "p3": "Aquest canvi i a la carrera vaig descobrir que les matemàtiques són divertides quan les apliques a alguna cosa real, com vendes i costos. Vaig gaudir molt de Màrqueting i crec que em va donar una visió de negoci que, si hagués estudiat una altra carrera, m'hauria costat més desenvolupar.",
+      "p4": "Després, vaig fer cursos de Data Analytics i Data Science. Això va confirmar el meu interès en dades i desenvolupament i em va donar el coratge per fer un postgrau en Finances Quantitatives."
+    },
+    "why": {
+      "title": "Per què?",
+      "p1": "M'encanta aquesta pregunta, així que crec que mereix una secció al meu portfoli.",
+      "p2": "Per què estimo el perquè? Perquè sento que exposa la meva motivació en cada aspecte de la meva vida.",
+      "p3": "Per què faig el que faig? Perquè crec que és cool. Pot sonar nerd, i sé que dir cool ja no és cool, però recentment he descobert que és la millor manera d'explicar-ho, almenys per a mi.",
+      "p4": "Sempre he estimat la tecnologia, però alhora tenia altres interessos forts que canviaven amb el temps. Treballar en IT em dóna la mateixa sensació que de petit quan descobria alguna cosa nova i emocionant que em feia perdre la noció del temps i aprendre'n més.",
+      "p5": "En aquest camí d'aprendre coses noves i cercar a Google o YouTube sobre la meva nova passió, veig amb perspectiva que la meva única brúixola per guiar-me era 'això és cool, vull saber-ne més'.",
+      "p6": "I aquesta fou tota la justificació que necessitava. Per a mi, això era 'cool'. Avui les coses no canvien gaire. Sí, tinc més estructura i marcs per aprendre millor. Però el que més gaudeixo és treballar en alguna cosa que realment crec que és cool. Encara que dir-ho així ja no sigui cool."
+    },
+    "projects": {
+      "title": "Projectes",
+      "repo": "Repositori",
+      "demo": "Demo",
+      "btn-repo": "Veure Repositori",
+      "btn-demo": "Veure Demo",
+      "1": {
+        "title": "Tracker de Finances Personals",
+        "short": "Aplicació web amb integració d'IA i carret de compres que permet als usuaris registrar i gestionar les seves finances personals de manera senzilla i intuïtiva.",
+        "tech": "Next.js | Supabase | IA Integration",
+        "desc": "Aquest quadre de comandament interactiu va ser desenvolupat per visualitzar finances personals amb una interfície d'usuari intuïtiva.",
+        "features": "Característiques principals:",
+        "feature1": "Visualització interactiva de dades en temps real",
+        "feature2": "Filtres dinàmics per a anàlisi personalitzat",
+        "feature3": "Exportació de dades en múltiples formats",
+        "feature4": "Integració amb múltiples fonts de dades",
+        "feature5": "Gestió d'autenticació d'usuaris"
+      },
+      "2": {
+        "title": "Miel Bakery",
+        "short": "Pàgina web de pastisseria, amb l'objectiu de mostrar els productes i preus per als clients.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Pàgina web de pastisseria, amb l'objectiu de mostrar els productes i preus per als clients.",
+        "features": "Característiques principals:",
+        "feature1": "Disseny responsiu per a tots els dispositius",
+        "feature2": "Animacions suaus i transicions elegants",
+        "feature3": "Optimització SEO",
+        "feature4": "Integració amb xarxes socials"
+      },
+      "3": {
+        "title": "Diamond Studio - Manicura",
+        "short": "Pàgina per a manicura, amb agenda de cites, formulari de contacte i carret de compres. Inclou sistema de Email Marketing i un sistema d'administració de clients.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Pàgina per a manicura, amb agenda de cites i formulari de contacte. Inclou sistema de Email Marketing i un sistema d'administració de clients.",
+        "features": "Característiques principals:",
+        "feature1": "Integració amb Whatsapp",
+        "feature2": "Integració amb Correu",
+        "feature3": "Gestió d'informació de clients"
+      },
+      "4": {
+        "title": "La Alfarera Taller",
+        "short": "Landing page per a una terrissera, amb l'objectiu de mostrar els serveis i tècniques per als clients.",
+        "tech": "HTML | CSS | Bootstrap | JavaScript",
+        "desc": "Landing page per a una terrissera, amb l'objectiu de mostrar els serveis i tècniques per als clients.",
+        "features": "Característiques principals:",
+        "feature1": "Integració amb Whatsapp",
+        "feature2": "Integració amb Correu",
+        "feature3": "Gestió d'informació de clients"
+      }
+    },
+    "contact": {
+      "title": "Contacte",
+      "socialTitle": "Xarxes Socials",
+      "email": "billordo.santiago@gmail.com",
+      "linkedinUrl": "https://linkedin.com/in/santiagobillordo",
+      "githubUrl": "https://github.com/santiagobillordo",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "message": "Missatge",
+        "send": "Enviar Missatge"
+      }
+    },
+    "footer": {
+      "role": "Desenvolupador Full Stack",
+      "links": "Enllaços Ràpids",
+      "social": "Xarxes Socials",
+      "made": "Fet amb",
+      "and": "i",
+      "copyright": "© 2025. Tots els drets reservats."
+    },
+    "language": {
+      "es": "Espanyol",
+      "en": "Anglès",
+      "ca": "Català"
+    }
+  }

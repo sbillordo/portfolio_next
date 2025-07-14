@@ -8,27 +8,27 @@ import { Github, ExternalLink } from "lucide-react";
 const projects = [
   {
     key: '1',
-    image: '/public/finance.png',
+    image: '/finance_tracker.png',
     repo: 'https://github.com/usuario/finance',
-    demo: 'https://finance-demo.com',
+    demo: 'https://finance-tracket.vercel.app/',
   },
   {
     key: '2',
-    image: '/public/bakery.png',
+    image: '/miel.png',
     repo: 'https://github.com/usuario/bakery',
-    demo: 'https://bakery-demo.com',
+    demo: 'https://miel.onrender.com/index.html',
   },
   {
     key: '3',
-    image: '/public/studio.png',
+    image: '/diamondstudio.png',
     repo: 'https://github.com/usuario/studio',
-    demo: 'https://studio-demo.com',
+    demo: 'https://diamondstudiomanicura-pruebas.netlify.app/',
   },
   {
     key: '4',
-    image: '/public/pottery.png',
+    image: '/la_alfarera.png',
     repo: 'https://github.com/usuario/pottery',
-    demo: 'https://pottery-demo.com',
+    demo: 'https://laalfarerataller.com/',
   },
 ];
 

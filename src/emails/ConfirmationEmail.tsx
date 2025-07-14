@@ -17,7 +17,7 @@ interface ConfirmationEmailProps {
 export default function ConfirmationEmail({ name, locale }: ConfirmationEmailProps) {
   const messages = {
     es: {
-      preview: `${name}, hemos recibido tu consulta`,
+      preview: `${name}, he recibido tu consulta`,
       heading: '✅ Consulta recibida correctamente',
       greeting: `¡Hola ${name}!`,
       message1: 'Gracias por ponerte en contacto conmigo. He recibido tu consulta y te responderé a la brevedad.',
@@ -25,12 +25,12 @@ export default function ConfirmationEmail({ name, locale }: ConfirmationEmailPro
       message3: 'Si tu consulta es urgente, también puedes contactarme directamente a través de LinkedIn.',
       signature: 'Saludos cordiales,',
       name: 'Santiago Billordo',
-      role: 'Full Stack Developer',
+      role: 'IT Business Analyst',
       footer: 'Este es un email automático, por favor no respondas a este mensaje.',
       linkedin: 'https://linkedin.com/in/santiagobillordo',
     },
     en: {
-      preview: `${name}, we have received your inquiry`,
+      preview: `${name}, I have received your inquiry`,
       heading: '✅ Inquiry received successfully',
       greeting: `Hello ${name}!`,
       message1: 'Thank you for getting in touch with me. I have received your inquiry and will respond to you shortly.',
@@ -38,7 +38,7 @@ export default function ConfirmationEmail({ name, locale }: ConfirmationEmailPro
       message3: 'If your inquiry is urgent, you can also contact me directly through LinkedIn.',
       signature: 'Best regards,',
       name: 'Santiago Billordo',
-      role: 'Full Stack Developer',
+      role: 'IT Business Analyst',
       footer: 'This is an automated email, please do not reply to this message.',
       linkedin: 'https://linkedin.com/in/santiagobillordo',
     }

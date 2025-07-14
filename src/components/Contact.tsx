@@ -142,25 +142,6 @@ export default function Contact() {
         
         {/* Formulario de contacto */}
         <div>
-          {/* Mensaje de éxito */}
-          {isSuccess && (
-            <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg flex items-center gap-3 animate-in fade-in duration-300">
-              <CheckCircle className="w-5 h-5 text-green-600 dark:text-green-400 flex-shrink-0" />
-              <span className="text-green-800 dark:text-green-200 text-sm">
-                {getSuccessMessage()}
-              </span>
-            </div>
-          )}
-
-          {/* Mensaje de error */}
-          {isError && (
-            <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg flex items-center gap-3 animate-in fade-in duration-300">
-              <AlertCircle className="w-5 h-5 text-red-600 dark:text-red-400 flex-shrink-0" />
-              <span className="text-red-800 dark:text-red-200 text-sm">
-                {getErrorMessage()}
-              </span>
-            </div>
-          )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
@@ -227,11 +208,29 @@ export default function Contact() {
                 {formData.message.length}/2000
               </div>
             </div>
-            
+             {/* Mensaje de éxito */}
+          {isSuccess && (
+            <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg flex items-center gap-3 animate-in fade-in duration-300">
+              <CheckCircle className="w-5 h-5 text-green-600 dark:text-green-400 flex-shrink-0" />
+              <span className="text-green-800 dark:text-green-200 text-sm">
+                {getSuccessMessage()}
+              </span>
+            </div>
+          )}
+
+          {/* Mensaje de error */}
+          {isError && (
+            <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg flex items-center gap-3 animate-in fade-in duration-300">
+              <AlertCircle className="w-5 h-5 text-red-600 dark:text-red-400 flex-shrink-0" />
+              <span className="text-red-800 dark:text-red-200 text-sm">
+                {getErrorMessage()}
+              </span>
+            </div>
+          )}
             <button 
               type="submit" 
               disabled={isLoading || !formData.name.trim() || !formData.email.trim() || !formData.message.trim()}
-              className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 group"
+              className="w-full bg-black dark:bg-white hover:bg-gray-800 dark:hover:bg-gray-200 disabled:bg-gray-700 dark:disabled:bg-gray-600 disabled:cursor-not-allowed text-white dark:text-black font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 group"
             >
               {isLoading && <Loader2 className="w-4 h-4 animate-spin" />}
               {!isLoading && (

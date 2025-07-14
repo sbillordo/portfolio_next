@@ -8,7 +8,7 @@ import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-white dark:bg-gray-900 pt-24">
       <Header />
       <main>
         <div className="max-w-4xl mx-auto px-4"> {/* CONTENEDOR PRINCIPAL */}

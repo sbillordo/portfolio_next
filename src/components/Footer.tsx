@@ -48,9 +48,8 @@ export function Footer() {
         </div>
       </footer>
       <div className="bg-gray-50 dark:bg-gray-900 py-2 w-full">
-        <div className="container mx-auto px-6 flex justify-between items-center">
-          <span className="text-gray-100 font-mono text-lg">{t('footer.copyright')}</span>
-          <span className="text-gray-100 font-mono text-lg flex items-center gap-1">{t('footer.made')} <span className="text-red-500 text-xl">♥</span></span>
+        <div className="container mx-auto flex justify-center items-center">
+          <span className="text-gray-700 dark:text-gray-300 font-mono text-lg flex items-center gap-1">{t('footer.made')} <span className="text-red-500 text-xl">♥</span></span>
         </div>
       </div>
     </>

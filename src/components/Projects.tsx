@@ -4,6 +4,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import ProjectModal from './ProjectModal';
 import { Github, ExternalLink } from "lucide-react";
+import Image from 'next/image';
 
 const projects = [
   {
@@ -60,8 +61,7 @@ export default function Projects() {
             onClick={() => handleOpenModal(project)}
           >
             <div className="h-40 bg-gray-200 dark:bg-gray-800 rounded mb-4 flex items-center justify-center overflow-hidden">
-              {/* Aquí podrías usar next/image si tienes imágenes reales */}
-              <span className="text-gray-400">{t(`${project.key}.short`)}</span>
+              <Image src={project.image} alt={t(`${project.key}.title`)} width={320} height={160} className="object-contain h-full w-full" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t(`${project.key}.title`)}</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4 font-mono">{t(`${project.key}.desc`)}</p>

@@ -15,6 +15,9 @@ export function Header() {
           <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
             {t('nav.about')}
           </a>
+          <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+            {t('nav.why')}
+          </a>
           <a href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
             {t('nav.projects')}
           </a>

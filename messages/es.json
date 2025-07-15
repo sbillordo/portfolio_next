@@ -32,6 +32,11 @@
       "demo": "Demo",
       "btn-repo": "Ver Repositorio",
       "btn-demo": "Ver Demo",
+      "repo-disabled": "Acceso al repositorio inhabilitado para proyectos de clientes",
+      "type": {
+        "personal": "Proyecto Personal",
+        "client": "Proyecto para Cliente"
+      },
       "1": {
         "title": "Tracker de Finanzas Personales",
         "short": "Aplicación web con integración de IA y carrito de compras que permite a los usuarios registrar y gestionar sus finanzas personales de manera sencilla e intuitiva.",
@@ -82,7 +87,9 @@
       "email": "billordo.santiago@gmail.com",
       "linkedinUrl": "https://linkedin.com/in/santiagobillordo",
       "githubUrl": "https://github.com/santiagobillordo",
+      "xUrl": "https://x.com/SantiBillordo",
       "form": {
+        "title": "Envíame un mensaje",
         "name": "Nombre",
         "email": "Email",
         "message": "Mensaje",

@@ -4,6 +4,27 @@ import React, { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Github, Linkedin, Mail, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 
+// Icono SVG personalizado para X (Twitter)
+const XTwitterIcon = ({ className, ...props }: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`lucide lucide-x-twitter ${className ?? ""}`}
+    {...props}
+  >
+    <path d="M8,2H3L16.7,22h5.1L8,2z" />
+    <line x1="2.3" y1="22.1" x2="10.2" y2="12.8" />
+    <line x1="19.8" y1="2" x2="13.3" y2="9.6" />
+  </svg>
+);
+
 interface FormData {
   name: string;
   email: string;
@@ -79,17 +100,25 @@ export default function Contact() {
     }
   };
 
-  const getSuccessMessage = () => {
-    return locale === 'es' 
-      ? '¡Mensaje enviado correctamente! Te responderé pronto.' 
-      : 'Message sent successfully! I will respond soon.';
+  const getSuccessMessage = () => {    
+      if (locale === 'es') {
+        return '¡Mensaje enviado correctamente! Te responderé pronto.';
+      } else if (locale === 'en') {
+        return 'Message sent successfully! I will respond soon.';
+      } else if (locale === 'ca') {
+        return 'Missatge enviat correctament! Respondré aviat.';
+      }
   };
 
   const getErrorMessage = () => {
     if (errorMessage) return errorMessage;
-    return locale === 'es' 
-      ? 'Error al enviar el mensaje. Intenta nuevamente.' 
-      : 'Error sending message. Please try again.';
+    if (locale === 'es') {
+      return 'Error al enviar el mensaje. Intenta nuevamente.';
+    } else if (locale === 'en') {
+      return 'Error sending message. Please try again.';
+    } else if (locale === 'ca') {
+      return 'Error en l\'enviament del missatge. Intenta-ho de nou.';
+    }
   };
 
   const isLoading = status === 'loading';
@@ -117,7 +146,18 @@ export default function Contact() {
                 className="flex items-center gap-3 hover:text-blue-600 dark:hover:text-blue-400 transition-colors group"
               >
                 <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>LinkedIn</span>
+                <span>Santiago Billordo</span>
+              </a>
+            </li>
+            <li>
+              <a 
+                href={t('xUrl')} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-3 hover:text-gray-900 dark:hover:text-white transition-colors group"
+              >
+                <XTwitterIcon className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                <span>@SantiBillordo</span>
               </a>
             </li>
             <li>
@@ -128,7 +168,7 @@ export default function Contact() {
                 className="flex items-center gap-3 hover:text-gray-900 dark:hover:text-white transition-colors group"
               >
                 <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>GitHub</span>
+                <span>sbillordo</span>
               </a>
             </li>
             <li>
@@ -142,7 +182,9 @@ export default function Contact() {
         
         {/* Formulario de contacto */}
         <div>
-
+        <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+            {t('form.title')}
+          </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label 
@@ -202,7 +244,7 @@ export default function Contact() {
                 disabled={isLoading}
                 rows={5}
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed transition-colors resize-none"
-                placeholder={locale === 'es' ? 'Escribe tu mensaje aquí...' : 'Write your message here...'}
+                placeholder={locale === 'es' ? 'Escribe tu mensaje aquí...' : locale === 'en' ? 'Write your message here...' : 'Escriu el teu missatge aquí...'}
               />
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 text-right">
                 {formData.message.length}/2000

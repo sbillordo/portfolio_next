@@ -32,6 +32,11 @@
       "demo": "Demo",
       "btn-repo": "Veure Repositori",
       "btn-demo": "Veure Demo",
+      "repo-disabled": "Accés al repositori inhabilitat per a projectes de clients",
+      "type": {
+        "personal": "Projecte Personal",
+        "client": "Projecte per a Client"
+      },
       "1": {
         "title": "Tracker de Finances Personals",
         "short": "Aplicació web amb integració d'IA i carret de compres que permet als usuaris registrar i gestionar les seves finances personals de manera senzilla i intuïtiva.",
@@ -81,8 +86,10 @@
       "socialTitle": "Xarxes Socials",
       "email": "billordo.santiago@gmail.com",
       "linkedinUrl": "https://linkedin.com/in/santiagobillordo",
+      "xUrl": "https://x.com/SantiBillordo",
       "githubUrl": "https://github.com/santiagobillordo",
       "form": {
+        "title": "Envía'm un missatge",
         "name": "Nom",
         "email": "Email",
         "message": "Missatge",

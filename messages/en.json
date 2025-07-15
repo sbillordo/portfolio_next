@@ -32,6 +32,11 @@
       "demo": "Demo",
       "btn-repo": "View Repository",
       "btn-demo": "View Demo",
+      "repo-disabled": "Repository access disabled for client projects",
+      "type": {
+        "personal": "Personal Project",
+        "client": "Client Project"
+      },
       "1": {
         "title": "Finance Tracker",
         "short": "Web app with IA integration and shopping cart that allows users to register and manage their personal finances in a simple and intuitive way.",
@@ -81,8 +86,10 @@
       "socialTitle": "Social Networks",
       "email": "billordo.santiago@gmail.com",
       "linkedinUrl": "https://linkedin.com/in/santiagobillordo",
+      "xUrl": "https://x.com/SantiBillordo",
       "githubUrl": "https://github.com/santiagobillordo",
       "form": {
+        "title": "Send me a message",
         "name": "Name",
         "email": "Email",
         "message": "Message",

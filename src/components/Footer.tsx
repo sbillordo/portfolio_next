@@ -4,6 +4,27 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import { useTranslations } from 'next-intl';
 import Link from "next/link";
 
+// Icono SVG personalizado para X (Twitter)
+const XTwitterIcon = ({ className, ...props }: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`lucide lucide-x-twitter ${className ?? ""}`}
+    {...props}
+  >
+    <path d="M8,2H3L16.7,22h5.1L8,2z" />
+    <line x1="2.3" y1="22.1" x2="10.2" y2="12.8" />
+    <line x1="19.8" y1="2" x2="13.3" y2="9.6" />
+  </svg>
+);
+
 export function Footer() {
   const t = useTranslations();
 
@@ -36,6 +57,9 @@ export function Footer() {
                 <a href="https://www.linkedin.com/in/santiagobillordo/" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
                   <Linkedin className="w-8 h-8" />
                 </a>
+                <a href="https://x.com/SantiBillordo" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+                  <XTwitterIcon className="w-8 h-8" />
+                </a>
                 <a href="https://github.com/santiagobillordo" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
                   <Github className="w-8 h-8" />
                 </a>
@@ -47,7 +71,7 @@ export function Footer() {
           </div>
         </div>
       </footer>
-      <div className="bg-gray-50 dark:bg-gray-900 py-2 w-full">
+      <div className="bg-gray-150 dark:bg-black py-2 w-full">
         <div className="container mx-auto flex justify-center items-center">
           <span className="text-gray-700 dark:text-gray-300 font-mono text-lg flex items-center gap-1">{t('footer.made')} <span className="text-red-500 text-xl">♥</span></span>
         </div>

@@ -40,35 +40,37 @@
       "1": {
         "title": "Tracker de Finanzas Personales",
         "short": "Aplicación web con integración de IA y carrito de compras que permite a los usuarios registrar y gestionar sus finanzas personales de manera sencilla e intuitiva.",
-        "tech": "Next.js | Supabase | IA Integration",
-        "desc": "Este dashboard interactivo fue desarrollado para visualizar finanzas personales con una interfaz de usuario intuitiva.",
+        "tech": "Next.js | Supabase | IA Integration | E-Commerce",
+        "desc": "Proyecto de una SAAS con landing page y dashboard interactivo desarrollado para seguimiento y mejora de finanzas personales con una interfaz de usuario intuitiva y moderna.",
         "features": "Características principales:",
-        "feature1": "Visualización interactiva de datos en tiempo real",
-        "feature2": "Filtros dinámicos para análisis personalizado",
-        "feature3": "Exportación de datos en múltiples formatos",
-        "feature4": "Integración con múltiples fuentes de datos",
-        "feature5": "Manejo de autenticación de usuarios"
+        "feature1": "Gestión de pagos y suscripciones para acceso de usuarios.",
+        "feature2": "Creación y autentificación de usuarios.",
+        "feature3": "Gestión de bases de datos relacionadas y API.",
+        "feature4": "Integración con API de OpenAI, con chatbot dentro de la aplicación y en WhatsApp.",
+        "feature5": ""
       },
       "2": {
         "title": "Miel Bakery",
-        "short": "Página web de pastelería, con el objetivo de mostrar los productos y precios para los clientes.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Página web de pastelería, con el objetivo de mostrar los productos y precios para los clientes.",
+        "short": "Landing page de pastelería, con catálogo de productos y calculadora de precios para los clientes.",
+        "tech": "Vite | CSS | JavaScript",
+        "desc": "Landing page de pastelería, enfocada en la comunicación y cotización de pedidos sin necesidad de registrarse ni formulario de contacto, enfocando la conversión por WhatsApp.",
         "features": "Características principales:",
-        "feature1": "Diseño responsivo para todos los dispositivos",
-        "feature2": "Animaciones suaves y transiciones elegantes",
-        "feature3": "Optimización SEO",
-        "feature4": "Integración con redes sociales"
+        "feature1": "Diseño responsivo para todos los dispositivos.",
+        "feature2": "Animaciones suaves y transiciones elegantes.",
+        "feature3": "Optimización SEO.",
+        "feature4": "Integración con redes sociales."
       },
       "3": {
         "title": "Diamond Studio - Manicura",
         "short": "Página para manicura, con agenda de cita, formulario de contacto y carrito de compras. Incluyendo sistema de email Marketing y un sistema de administración de clientes.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Página para manicura, con agenda de cita y formulario de contacto. Incluyendo sistema de email Marketing y un sistema de administración de clientes.",
+        "tech": "HTML | CSS | Bootstrap | Python |JavaScript",
+        "desc": "Página para manicura preparada para gestionar clientes B2C y B2B, con formulario de contacto y carrito de compras enfocado en WhatsApp por pedido del cliente. Incluye sistema de email Marketing a medida y un CRM de clientes personalizado.",
         "features": "Características principales:",
-        "feature1": "Integración con Whatsapp",
-        "feature2": "Integración con Mail",
-        "feature3": "Gestión de información de clientes"
+        "feature1": "CRM personalizado.",
+        "feature2": "Integración con Whatsapp.",
+        "feature3": "Gestor hecho a medida para automatizar carga de productos.",
+        "feature4": "Sistema de email Marketing a medida.",
+        "feature5": ""
       },
       "4": {
         "title": "La Alfarera Taller",

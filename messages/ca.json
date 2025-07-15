@@ -40,35 +40,37 @@
       "1": {
         "title": "Tracker de Finances Personals",
         "short": "Aplicació web amb integració d'IA i carret de compres que permet als usuaris registrar i gestionar les seves finances personals de manera senzilla i intuïtiva.",
-        "tech": "Next.js | Supabase | IA Integration",
-        "desc": "Aquest quadre de comandament interactiu va ser desenvolupat per visualitzar finances personals amb una interfície d'usuari intuïtiva.",
+        "tech": "Next.js | Supabase | IA Integration | E-Commerce",
+        "desc": "Projecte de una SAAS amb landing page i dashboard interactiu desenvolupat per a seguiment i millora de finances personals amb una interfície d'usuari intuïtiva i moderna.",
         "features": "Característiques principals:",
-        "feature1": "Visualització interactiva de dades en temps real",
-        "feature2": "Filtres dinàmics per a anàlisi personalitzat",
-        "feature3": "Exportació de dades en múltiples formats",
-        "feature4": "Integració amb múltiples fonts de dades",
-        "feature5": "Gestió d'autenticació d'usuaris"
+        "feature1": "Gestió de pagos i suscripciones per a accés d'usuaris.",
+        "feature2": "Creació i autentificació d'usuaris.",
+        "feature3": "Gestió de bases de dades relacionades i API.",
+        "feature4": "Integració amb API d'OpenAI, amb chatbot dins de l'aplicació i en WhatsApp.",
+        "feature5": ""
       },
       "2": {
         "title": "Miel Bakery",
-        "short": "Pàgina web de pastisseria, amb l'objectiu de mostrar els productes i preus per als clients.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Pàgina web de pastisseria, amb l'objectiu de mostrar els productes i preus per als clients.",
+        "short": "Landing page de pastisseria, amb catàleg de productes i calculadora de preus per als clients.",
+        "tech": "Vite | CSS | JavaScript",
+        "desc": "Landing page de pastisseria, enfocada en la comunicació i cotització de comandes sense necessitat de registrar-se ni formulari de contacte, enfocant la conversió per WhatsApp.",
         "features": "Característiques principals:",
-        "feature1": "Disseny responsiu per a tots els dispositius",
-        "feature2": "Animacions suaus i transicions elegants",
-        "feature3": "Optimització SEO",
-        "feature4": "Integració amb xarxes socials"
+        "feature1": "Disseny responsiu per a tots els dispositius.",
+        "feature2": "Animacions suaus i transicions elegants.",
+        "feature3": "Optimització SEO.",
+        "feature4": "Integració amb xarxes socials."
       },
       "3": {
         "title": "Diamond Studio - Manicura",
         "short": "Pàgina per a manicura, amb agenda de cites, formulari de contacte i carret de compres. Inclou sistema de Email Marketing i un sistema d'administració de clients.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Pàgina per a manicura, amb agenda de cites i formulari de contacte. Inclou sistema de Email Marketing i un sistema d'administració de clients.",
+        "tech": "HTML | CSS | Bootstrap | Python |JavaScript",
+        "desc": "Pàgina per a manicura preparada per gestionar clients B2C i B2B, amb formulari de contacte i carret de compres enfocat en WhatsApp per ordre del client. Inclou un sistema de email Marketing a mida i un sistema d'administració de clients personalitzat.",
         "features": "Característiques principals:",
-        "feature1": "Integració amb Whatsapp",
-        "feature2": "Integració amb Correu",
-        "feature3": "Gestió d'informació de clients"
+        "feature1": "CRM personalitzat.",
+        "feature2": "Integració amb Whatsapp.",
+        "feature3": "Gestor fet a mida per automatitzar la càrrega de productes.",
+        "feature4": "Sistema de email Marketing a mida.",
+        "feature5": ""
       },
       "4": {
         "title": "La Alfarera Taller",

@@ -80,7 +80,7 @@ export default function Projects() {
               {project.type === 'personal' ? <User className="w-3 h-3" /> : <Briefcase className="w-3 h-3" />}
               {t(`type.${project.type}`)}
             </span>
-            <p className="text-gray-700 dark:text-gray-300 mb-4 font-mono">{t(`${project.key}.desc`)}</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-4 font-mono">{t(`${project.key}.short`)}</p>
             <div className="mt-auto flex gap-2">
               {project.type === 'client' ? (
                 <div className="relative group">

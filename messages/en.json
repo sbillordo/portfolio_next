@@ -40,35 +40,37 @@
       "1": {
         "title": "Finance Tracker",
         "short": "Web app with IA integration and shopping cart that allows users to register and manage their personal finances in a simple and intuitive way.",
-        "tech": "Next.js | Supabase | IA Integration",
-        "desc": "This interactive dashboard was developed to visualize personal finances with an intuitive user interface.",
+        "tech": "Next.js | Supabase | IA Integration | E-Commerce",
+        "desc": "Project of a SAAS with landing page and interactive dashboard developed for personal finance tracking and improvement with an intuitive and modern user interface.",
         "features": "Main features:",
-        "feature1": "Real-time interactive data visualization",
-        "feature2": "Dynamic filters for custom analysis",
-        "feature3": "Data export in multiple formats",
-        "feature4": "Integration with multiple data sources",
-        "feature5": "User authentication management"
+        "feature1": "Payment and subscription management for user access.",
+        "feature2": "User creation and authentication.",
+        "feature3": "Backend management with related databases and API.",
+        "feature4": "Integration with OpenAI API, with chatbot inside the app and in WhatsApp.",
+        "feature5": ""
       },
       "2": {
         "title": "Miel Bakery",
-        "short": "Bakery website designed to showcase products and prices for clients.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Bakery website designed to showcase products and prices for clients.",
+        "short": "Landing page of a bakery, with catalog of products and price calculator for clients.",
+        "tech": "Vite | CSS | JavaScript",
+        "desc": "Landing page of a bakery, focused on communication and price quotation of orders without the need to register or contact form, focusing on conversion by WhatsApp.",
         "features": "Main features:",
-        "feature1": "Responsive design for all devices",
-        "feature2": "Smooth animations and elegant transitions",
-        "feature3": "SEO optimization",
-        "feature4": "Social media integration"
+        "feature1": "Responsive design for all devices.",
+        "feature2": "Smooth animations and elegant transitions.",
+        "feature3": "SEO optimization.",
+        "feature4": "Social media integration."
       },
       "3": {
         "title": "Diamond Studio - Manicure",
-        "short": "Manicure website with appointment scheduling, contact form and shopping cart. Including email marketing system and customer management system.",
-        "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "desc": "Manicure website with appointment scheduling and contact form. Including email marketing system and customer management system.",
+        "short": "Manicure website with B2C and B2B clients, appointment scheduling, contact form and shopping cart. Including email marketing system and customer management system.",
+        "tech": "HTML | CSS | Bootstrap | Python |JavaScript",
+        "desc": "Manicure website prepared to manage B2C and B2B clients, with contact form and shopping cart focused on WhatsApp by order of the client. Includes a personalized email marketing system and a customer management system.",
         "features": "Main features:",
-        "feature1": "WhatsApp integration",
-        "feature2": "Email integration",
-        "feature3": "Customer information management"
+        "feature1": "Personalized CRM.",
+        "feature2": "WhatsApp integration.",
+        "feature3": "Custom made manager to automate product loading.",
+        "feature4": "Personalized email marketing system.",
+        "feature5": ""
       },
       "4": {
         "title": "La Alfarera Workshop",

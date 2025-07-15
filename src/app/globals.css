@@ -125,6 +125,10 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* Variables para el tema */
 :root {
   --background: 0 0% 100%;

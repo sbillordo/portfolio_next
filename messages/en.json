@@ -34,7 +34,7 @@
       "demo": "Demo",
       "btn-repo": "View Repository",
       "btn-demo": "View Demo",
-      "repo-disabled": "Repository access disabled for client projects",
+      "repo-disabled": "Repository access disabled.",
       "type": {
         "personal": "Personal Project",
         "client": "Client Project"

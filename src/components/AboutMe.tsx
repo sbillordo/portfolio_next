@@ -14,6 +14,8 @@ export default function AboutMe() {
         <p>{t('p2')}</p>
         <p>{t('p3')}</p>
         <p>{t('p4')}</p>
+        <p>{t('p5')}</p>
+        <p>{t('p6')}</p>
       </div>
     </section>
   );

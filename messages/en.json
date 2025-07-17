@@ -12,19 +12,21 @@
     },
     "aboutMe": {
       "title": "About me:",
-      "p1": "I'm passionate about technology, data, and business.",
-      "p2": "Although, when I chose a career in my 18s I decided for Marketing. Strange, right? But at that moment I saw the mathematical and theoretical aspect of engineering not aligned with what I wanted.",
-      "p3": "That change and in the career I discovered that maths are fun when you applied in something real, like sales and costs. Anyway, I enjoyed Marketing a lot, and I think it gave me a business vision that if I studied other career would take me a lot more to develop.",
-      "p4": "Later, I took courses of Data Analytics and Data Sciences. Which confirmed my interest in data and development, and give me the courage to made a postgrad in Quantitative Finances."
+      "p1": "Passionate about technology, data, and business.",
+      "p2": "From IT I combine experience in development, process automation and business vision to create efficient and business-oriented solutions.",
+      "p3": "My experience in Commercial and Finance areas gives me a holistic view to detect inefficiencies, automate processes and design scalable flows.",
+      "p4": "I studied Marketing, Data Analytics, Data Science and Quantitative Finance, consolidating a technical profile with strong customer focus and business strategy.",
+      "p5": "I work with tools like Python, JavaScript (React, Node.js), SQL and APIs, integrating systems in real and complex environments.",
+      "p6": "I am motivated by challenges where I can combine development, automation and business vision to deliver solutions that make a difference."
     },
     "why": {
       "title": "Why?",
-      "p1": "I love this question, so I think it deserves a section in my portfolio.",
-      "p2": "Why I love why? Because I feel that exposes my motivation in every aspect of my life.",
-      "p3": "Why I do what I do? Because I think is cool. This may sound dorky, and I know that say cool is not cool anymore, but recently discover is the best way to explain it, at myself at least work.",
-      "p4": "Always love technology, but at the same time had other strong interest that change at the time. Working in IT give me the same feeling as child when I discover some new and exciment topic that made me lose track of time and go all in learning more about that.",
-      "p5": "In this path to learn new things and searching in Google or YouTube about my new passion, I see in retrospective that my only compass to guide me was 'this is cool, I wanna know more'.",
-      "p6": "And that was all the justification that I need. That for me was 'cool'. Nowadays things does not change so much. Yes, I have more structure and develop frameworks to learn better. But what I more enjoy is working into something that I truly believe that's cool. Even though said in that way is not cool."
+      "p1": "I love this question. So, I think it deserves a section in my portfolio: because it exposes what motivates me and why I do what I do.",
+      "p2": "Why I do what I do? Because I am passionate about it.",
+      "p3": "As a child, when I discovered something new and exciting, I could spend hours researching, learning, and building, until I lost track of time.",
+      "p4": "That feeling —of excitement, curiosity, and constant learning— continues to guide me today. And working in technology gives me that feeling every day.",
+      "p5": "Over time, I realized that for me it's simple: I enjoy solving problems, automating processes, and building solutions that work. I'm motivated to work on projects that truly excite me and where I can add real value.",
+      "p6": "If something interests me, I get fully involved. And if I work in your team or on your project, I'll approach it with the same curiosity and commitment."
     },
     "projects": {
       "title": "Projects",

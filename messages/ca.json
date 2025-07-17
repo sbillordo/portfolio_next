@@ -12,19 +12,21 @@
     },
     "aboutMe": {
       "title": "Sobre mi:",
-      "p1": "M'apassiona la tecnologia, les dades i els negocis.",
-      "p2": "Tot i que, quan vaig triar una carrera als 18 vaig optar per Màrqueting. Estrany, oi? Però en aquell moment veia l'aspecte matemàtic i teòric de l'enginyeria no alineat amb el que volia.",
-      "p3": "Aquest canvi i a la carrera vaig descobrir que les matemàtiques són divertides quan les apliques a alguna cosa real, com vendes i costos. Vaig gaudir molt de Màrqueting i crec que em va donar una visió de negoci que, si hagués estudiat una altra carrera, m'hauria costat més desenvolupar.",
-      "p4": "Després, vaig fer cursos de Data Analytics i Data Science. Això va confirmar el meu interès en dades i desenvolupament i em va donar el coratge per fer un postgrau en Finances Quantitatives."
+      "p1": "Apassionat per la tecnologia, les dades i els negocis.",
+      "p2": "Des de IT combino experiència en desenvolupament, automatització de processos i visió comercial per crear solucions eficients i orientades al negoci.",
+      "p3": "La meva experiència en àrees comercials i de Finances me dóna una visió integral per detectar ineficiències, automatitzar processos i dissenyar fluxos escalables.",
+      "p4": "He estudiat Marketing, Data Analytics, Data Science i Finances Quantitatives, consolidant un perfil tècnic amb una forta orientació al client i a la estratègia de negoci.",
+      "p5": "Treballo amb eines com Python, JavaScript (React, Node.js), SQL i APIs, integrant sistemes en entorns reals i complexos.",
+      "p6": "Me motiven els desafiaments on puc combinar desenvolupament, automatització i visió de negoci per oferir solucions que marquen la diferència."
     },
     "why": {
       "title": "Per què?",
-      "p1": "M'encanta aquesta pregunta, així que crec que mereix una secció al meu portfoli.",
-      "p2": "Per què estimo el perquè? Perquè sento que exposa la meva motivació en cada aspecte de la meva vida.",
-      "p3": "Per què faig el que faig? Perquè crec que és cool. Pot sonar nerd, i sé que dir cool ja no és cool, però recentment he descobert que és la millor manera d'explicar-ho, almenys per a mi.",
-      "p4": "Sempre he estimat la tecnologia, però alhora tenia altres interessos forts que canviaven amb el temps. Treballar en IT em dóna la mateixa sensació que de petit quan descobria alguna cosa nova i emocionant que em feia perdre la noció del temps i aprendre'n més.",
-      "p5": "En aquest camí d'aprendre coses noves i cercar a Google o YouTube sobre la meva nova passió, veig amb perspectiva que la meva única brúixola per guiar-me era 'això és cool, vull saber-ne més'.",
-      "p6": "I aquesta fou tota la justificació que necessitava. Per a mi, això era 'cool'. Avui les coses no canvien gaire. Sí, tinc més estructura i marcs per aprendre millor. Però el que més gaudeixo és treballar en alguna cosa que realment crec que és cool. Encara que dir-ho així ja no sigui cool."
+      "p1": "M'encanta aquesta pregunta. Per tant, crec que mereix un espai propi al meu portfoli: perquè exposa el que m'emprenya i per què faig el que faig.",
+      "p2": "Per què faig el que faig? Perquè me'n apassiona.",
+      "p3": "Com a nen, quan descobria alguna cosa nova i emocionant, podia passar hores investigant, aprenent i construint, fins perdre la noció del temps.",
+      "p4": "Aquesta sensació —d'entusiasme, curiositat i aprenentatge constant— continua guiant-me avui. I treballar en tecnologia em la dóna tots els dies.",
+      "p5": "Amb el temps, vaig adonar-me que per a mi és senzill: gaudeixo de resoldre problemes, automatitzar processos i construir solucions que funcionen. Me'n motiva treballar en projectes que realment m'entusiasmen i on puc aportar valor real.",
+      "p6": "Si alguna cosa m'interessa, m'involucro completament. I si treballo en el teu equip o en el teu projecte, ho faré amb la mateixa curiositat i compromís."
     },
     "projects": {
       "title": "Projectes",

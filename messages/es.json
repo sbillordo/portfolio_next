@@ -12,19 +12,21 @@
     },
     "aboutMe": {
       "title": "Sobre mí:",
-      "p1": "Me apasiona la tecnología, los datos y los negocios.",
-      "p2": "Aunque, cuando elegí una carrera en mis 18s opté por Marketing. ¿Extraño, no? Pero en ese momento veía el aspecto matemático y teórico de ingeniería no alineado con lo que quería.",
-      "p3": "Ese cambio y en la carrera descubrí que las matemáticas son divertidas cuando las aplicas en algo real, como ventas y costos. Disfruté mucho Marketing y creo que me dio una visión de negocios que si hubiera estudiado otra carrera me hubiera costado más desarrollar.",
-      "p4": "Luego, tomé cursos de Data Analytics y Data Sciences. Eso confirmó mi interés en datos y desarrollo, y me dio el coraje para hacer un posgrado en Finanzas Cuantitativas."
+      "p1": "Apasionado por la tecnología, los datos y los negocios.",
+      "p2": "Desde IT combino experiencia en desarrollo, automatización de procesos y visión comercial para crear soluciones eficientes y orientadas al negocio.",
+      "p3": "Mi experiencia en áreas Comerciales y de Finanzas me da una visión integral para detectar ineficiencias, automatizar procesos y diseñar flujos escalables.",
+      "p4": "Me formé en Marketing, Data Analytics, Data Science y Finanzas Cuantitativas, consolidando un perfil técnico con fuerte orientación al cliente y a la estrategia de negocio.",
+      "p5": "Trabajo con herramientas como Python, JavaScript (React, Node.js), SQL y APIs, integrando sistemas en entornos reales y complejos.",
+      "p6": "Me motivan los desafíos donde puedo combinar desarrollo, automatización y visión de negocio para entregar soluciones que marcan la diferencia."
     },
     "why": {
       "title": "¿Por qué?",
-      "p1": "Me encanta esta pregunta, así que creo que merece una sección en mi portfolio.",
-      "p2": "¿Por qué amo el por qué? Porque siento que expone mi motivación en cada aspecto de mi vida.",
-      "p3": "¿Por qué hago lo que hago? Porque creo que es cool. Puede sonar nerd, y sé que decir cool ya no es cool, pero recientemente descubrí que es la mejor forma de explicarlo, al menos para mí.",
-      "p4": "Siempre amé la tecnología, pero al mismo tiempo tenía otros intereses fuertes que cambiaban con el tiempo. Trabajar en IT me da la misma sensación que de niño cuando descubría algo nuevo y emocionante que me hacía perder la noción del tiempo y aprender más sobre eso.",
-      "p5": "En este camino de aprender cosas nuevas y buscar en Google o YouTube sobre mi nueva pasión, veo en retrospectiva que mi única brújula para guiarme era 'esto es cool, quiero saber más'.",
-      "p6": "Y esa fue toda la justificación que necesitaba. Para mí, eso era 'cool'. Hoy las cosas no cambian mucho. Sí, tengo más estructura y frameworks para aprender mejor. Pero lo que más disfruto es trabajar en algo que realmente creo que es cool. Aunque decirlo así ya no sea cool."
+      "p1": "Me encanta esta pregunta. Por eso, creo que merece un espacio propio en mi portfolio: porque expone lo que me motiva y por qué hago lo que hago.",
+      "p2": "¿Por qué hago lo que hago? Porque me apasiona.",
+      "p3": "De chico, cuando descubría algo nuevo y emocionante, podía pasar horas investigando, aprendiendo y construyendo, hasta perder la noción del tiempo.",
+      "p4": "Esa sensación —de entusiasmo, curiosidad y aprendizaje constante— sigue guiándome hoy. Y trabajar en tecnología me la da todos los días.",
+      "p5": "Con el tiempo entendí que es simple para mí: disfruto resolver problemas, automatizar procesos y construir soluciones que funcionan. Me motiva trabajar en proyectos que me entusiasmen de verdad y donde pueda aportar valor real.",
+      "p6": "Si algo me parece interesante, me involucro completamente. Y si trabajo en tu equipo o en tu proyecto, lo voy a encarar con la misma curiosidad y compromiso."
     },
     "projects": {
       "title": "Proyectos",

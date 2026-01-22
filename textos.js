@@ -152,7 +152,7 @@ const translations = {
         'contact-email': 'Correo electrónico',
         'contact-message': 'Mensaje',
         'contact-send': 'Enviar Mensaje',
-        'footer-role': 'Desarrollador Full Stack',
+        'footer-role': 'Tech Passionate',
         'footer-links': 'Enlaces Rápidos',
         'footer-social': 'Redes Sociales',
         'footer-made': 'Hecho con',
